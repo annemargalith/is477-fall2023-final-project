@@ -1,7 +1,7 @@
 import pandas as pd
 from ydata_profiling import ProfileReport
 
-df = pd.read_csv('data/iris/iris.data')
+df = pd.read_csv('./data/iris/iris.data')
 
 from ydata_profiling import ProfileReport
 
