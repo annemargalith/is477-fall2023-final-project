@@ -1,0 +1,7 @@
+requests
+pandas==2.1.1
+numpy==1.26.1
+scikit-learn==1.3.2
+matplotlib==3.8.0
+snakemake
+ydata-profiling
