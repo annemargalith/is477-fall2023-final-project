@@ -47,3 +47,12 @@ The pair plot suggests that petal measurements (length and width) are more effec
 Iris Setosa can be easily distinguished from the other two species, while Versicolor and Virginica are more challenging to differentiate based solely on these four features.
 These insights can be particularly valuable in designing classification models or conducting further species-specific analyses.
 This analysis is based on typical observations from the Iris dataset. The exact patterns and insights could vary depending on the specific dataset instance and plot detail
+
+## Workflow
+
+
+## Reproducing
+
+## License
+
+## References
