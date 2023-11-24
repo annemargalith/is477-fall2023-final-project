@@ -16,3 +16,12 @@ Fisher,R. A.. (1988). Iris. UCI Machine Learning Repository. https://doi.org/10.
 - License: This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license. It allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given.
 
 - Therefore, under this license, we will be including the dataset in our repository, since, with the right credit given, it can be shared. The data is contained in the iris folder inside our data folder of this repository.
+
+## Analysis
+
+The summary statistics for the Iris dataset are as follows:
+
+Sepal Length: Ranges from 4.3 to 7.9 cm, with an average of 5.84 cm.
+Sepal Width: Ranges from 2.0 to 4.4 cm, with an average of 3.05 cm.
+Petal Length: Ranges from 1.0 to 6.9 cm, with an average of 3.76 cm.
+Petal Width: Ranges from 0.1 to 2.5 cm, with an average of 1.20 cm
