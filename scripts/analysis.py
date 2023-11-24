@@ -16,9 +16,6 @@ import pandas as pd
 column_names = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'class']
 iris_data = pd.read_csv('./data/iris/iris.data', header=None, names=column_names)
 
-# displaying head
-print(iris_data.head())
-
 # finding summary statistics
 summary_statistics = iris_data.describe()
 with open('./results/iris_summary_stats.txt', 'w') as f:
