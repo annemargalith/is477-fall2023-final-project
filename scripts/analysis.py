@@ -6,8 +6,9 @@ iris = fetch_ucirepo(id=53)
 # data (as pandas dataframes) 
 X = iris.data.features 
 y = iris.data.targets 
-  
-print(iris.variables) 
+
+with open('./results/iris_variables.txt', 'w') as f:
+   f.write(str(iris.variables))
 
 import pandas as pd
 
@@ -20,7 +21,8 @@ print(iris_data.head())
 
 # finding summary statistics
 summary_statistics = iris_data.describe()
-print(summary_statistics)
+with open('./results/iris_summary_stats.txt', 'w') as f:
+   f.write(str(summary_statistics))
 
 # making pair plot
 import seaborn as sns
@@ -28,5 +30,6 @@ import matplotlib.pyplot as plt
 
 sns.pairplot(iris_data, hue="class")
 
+plt.savefig('./results/pair_plot.png')
 # Show the plot
 plt.show()

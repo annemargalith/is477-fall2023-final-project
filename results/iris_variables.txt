@@ -1,0 +1,8 @@
+           name     role  ... units missing_values
+0  sepal length  Feature  ...    cm             no
+1   sepal width  Feature  ...    cm             no
+2  petal length  Feature  ...    cm             no
+3   petal width  Feature  ...    cm             no
+4         class   Target  ...  None             no
+
+[5 rows x 7 columns]
