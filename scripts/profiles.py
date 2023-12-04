@@ -1,7 +1,8 @@
 import pandas as pd
 from ydata_profiling import ProfileReport
 
-df = pd.read_csv('./data/iris/iris.data')
+column_names = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'class']
+df = pd.read_csv('./data/iris/iris.data', header=None, names=column_names)
 
 from ydata_profiling import ProfileReport
 
