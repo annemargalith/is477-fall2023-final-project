@@ -41,15 +41,15 @@ To reproduce the contents in this project, you should follow the following steps
 
 3. To rerun the data preparation script:
 
-docker run --rm -v ${PWD}:/is477 annem6/is477-fall2023 python prepare_data.py
+docker run -v ${PWD}:/is477 annem6/is477-fall2023-final-project:v1 python scripts/prepare_data.py
 
 4. To rerun the data analysis script: 
 
-docker run --rm -v ${PWD}:/is477 annem6/is477-fall2023 python prepare_data.py
+docker run -v ${PWD}:/is477 annem6/is477-fall2023-final-project:v1 python scripts/analysis.py
 
 5. To rerun the data profile script: 
 
-docker run --rm -v ${PWD}:/is477 annem6/is477-fall2023 python prepare_data.py
+docker run -v ${PWD}:/is477 annem6/is477-fall2023-final-project:v1 python scripts/profiles.py
 
 The workflow can also be ran by using snakemake and running the following codes: 
 
