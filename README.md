@@ -51,9 +51,11 @@ docker run --rm -v ${PWD}:/is477 annem6/is477-fall2023 python prepare_data.py
 
 docker run --rm -v ${PWD}:/is477 annem6/is477-fall2023 python prepare_data.py
 
-The workflow can also be ran by using snakemake and running the following code: 
+The workflow can also be ran by using snakemake and running the following codes: 
 
-
+snakemake --cores 1 prepare
+snakemake --cores 1 profile
+snakemake --cores 1 analyze
 
 ## License
 
