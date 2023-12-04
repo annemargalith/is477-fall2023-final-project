@@ -49,6 +49,7 @@ These insights can be particularly valuable in designing classification models o
 This analysis is based on typical observations from the Iris dataset. The exact patterns and insights could vary depending on the specific dataset instance and plot detail
 
 ## Workflow
+/assets/images/workflow_visualization.png
 
 
 ## Reproducing
