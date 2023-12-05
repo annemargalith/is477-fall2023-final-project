@@ -1,0 +1,32 @@
+{
+    "title": "# Analysis of: Iris Dataset (IS477)",
+    "description": "The purpose of this repository is to create an end-to-end reproducible analysis of the Iris UCI Dataset",
+    "creators": [
+    {
+    "orcid": "0009-0002-1891-2158",
+    "name": "Margalith, Anne"
+    }
+    ],
+    "license": "MIT License",
+    "keywords": ["Iris", "Petal", "Species"],
+    "related_identifiers": [
+        {
+            "scheme": "doi",
+            "identifier": "10.24432/C56C76",
+            "relation": "Cites",
+            "resource_type": "Dataset"
+        },
+        {
+            "scheme": "URL",
+            "identifier": "https://github.com/annemargalith/is477-fall2023-final-project",
+            "relation": "IsSuplementTo",
+            "resource_type": "Workflow"
+        }
+    ],
+    "upload_type": "Dataset Analysis",
+    
+    "access_rights": {
+        "type": "Open Access"
+        }
+
+    }
