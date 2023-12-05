@@ -4,6 +4,8 @@
 
 This repository has the purpose of applyign the reproducibility concept when performing different analysis in the UCI Iris Dataset. Reproducibility is an important concept in which we use the same inputs and methods to try to get the same results. By applying it in this repository, we will be looking at the transparency of the study, the different license types and copyrights from the data and software, as well as how to properly cite the data and how to identify issues when trying to reproduce results. 
 
+Describe dataset!! What method and goal, what to do in this project!
+
 ## Data Availability
 
 **UCI Iris Dataset**
