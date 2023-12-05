@@ -51,11 +51,12 @@ docker run -v ${PWD}:/is477 annem6/is477-fall2023-final-project:v1 python script
 
 docker run -v ${PWD}:/is477 annem6/is477-fall2023-final-project:v1 python scripts/profiles.py
 
+
 The workflow can also be ran by using snakemake and running the following codes: 
 
-snakemake --cores 1 prepare
-snakemake --cores 1 profile
-snakemake --cores 1 analyze
+- snakemake --cores 1 prepare
+- snakemake --cores 1 profile
+- snakemake --cores 1 analyze
 
 ## License
 
