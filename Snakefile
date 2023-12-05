@@ -5,8 +5,8 @@ rule prepare:
     "python scripts/prepare_data.py"
 
 rule profile:
-  input:
-    "scripts/prepare_data.py"
+  input: 
+    "data/iris"
   output:
     'profiling/report.html'
   shell:
@@ -14,7 +14,7 @@ rule profile:
 
 rule analyze:
   input:
-    "scripts/prepare_data.py"
+    "data/iris"
   output:
     'results'
   shell:
