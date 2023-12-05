@@ -8,6 +8,7 @@
     }
     ],
     "license": "MIT License",
+    "license": "CC-BY-4.0",
     "keywords": ["Iris", "Petal", "Species"],
     "related_identifiers": [
         {
@@ -23,10 +24,8 @@
             "resource_type": "Workflow"
         }
     ],
-    "upload_type": "Dataset Analysis",
+    "upload_type": "software",
     
-    "access_rights": {
-        "type": "Open Access"
-        }
+    "access_right": "open"
 
     }
