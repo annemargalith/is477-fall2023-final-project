@@ -13,7 +13,7 @@
         {
             "scheme": "doi",
             "identifier": "10.24432/C56C76",
-            "relation": "Cites",
+            "relation": "cites",
             "resource_type": "Dataset"
         }
     ],
