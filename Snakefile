@@ -16,15 +16,11 @@ rule analyze:
   input:
     "data/iris/iris.data"
   output:
-    'results/pair_plot.png',
-    'iris_summary_stats.txt',
-    'iris_variables.txt'
+    'results/pair_plot.png'
   shell:
     "python scripts/analysis.py"
 
 rule reproduce: 
   input: 
     'results/pair_plot.png',
-    'iris_summary_stats.txt',
-    'iris_variables.txt',
     'profiling/report.html'
