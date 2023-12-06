@@ -15,12 +15,6 @@
             "identifier": "10.24432/C56C76",
             "relation": "Cites",
             "resource_type": "Dataset"
-        },
-        {
-            "scheme": "URL",
-            "identifier": "https://github.com/annemargalith/is477-fall2023-final-project",
-            "relation": "IsSuplementTo",
-            "resource_type": "Workflow"
         }
     ],
     "upload_type": "software",
