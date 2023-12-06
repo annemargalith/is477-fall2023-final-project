@@ -14,11 +14,11 @@
             "scheme": "doi",
             "identifier": "10.24432/C56C76",
             "relation": "cites",
-            "resource_type": "Dataset"
+            "resource_type": "dataset"
         }
     ],
     "upload_type": "software",
     
     "access_right": "open"
 
-    }
+}
