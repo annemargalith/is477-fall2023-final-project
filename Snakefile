@@ -1,12 +1,12 @@
 rule prepare:
   output:
-    "data/iris"
+    "data/iris/iris.data"
   shell:
     "python scripts/prepare_data.py"
 
 rule profile:
   input: 
-    "data/iris"
+    "data/iris/iris.data"
   output:
     'profiling/report.html'
   shell:
@@ -14,13 +14,17 @@ rule profile:
 
 rule analyze:
   input:
-    "data/iris"
+    "data/iris/iris.data"
   output:
-    'results'
+    'results/pair_plot.png',
+    'iris_summary_stats.txt',
+    'iris_variables.txt'
   shell:
     "python scripts/analysis.py"
 
 rule reproduce: 
   input: 
-    'results',
+    'results/pair_plot.png',
+    'iris_summary_stats.txt',
+    'iris_variables.txt',
     'profiling/report.html'
