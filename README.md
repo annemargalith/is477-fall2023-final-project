@@ -63,6 +63,8 @@ The workflow can also be ran by using snakemake and running the following codes:
 - snakemake --cores 1 profile
 - snakemake --cores 1 analyze
 
+Or you can run all of the workflow by doing: snakemake --cores 1 reproduce
+
 ## License
 
 **Software Licensing**
