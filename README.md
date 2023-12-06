@@ -72,7 +72,6 @@ copies of the Software, and to permit persons to whom the Software is furnished 
 
 The MIT License was chosen because it is one of the most permissive open-source licenses and allows users to work with the software with minimal restrictions. Therefore, it makes it easier to integrate and combine code from different sources. Furthermore, the MIT License can protect developers from legal liabilities since it does not provide warranties. 
 
-
 **Data License**
 
 The data license chosen is the Creative Commons Attribution 4.0 (CC-BY-4.0). It allows individuals to share - copy and redistribute the material in any medium or format, as well as adapt — remix, transform, and build upon the material for any purpose, including commercially, as long as appropriate credit is given, together with a link to the license, and indicate if changes were made.
