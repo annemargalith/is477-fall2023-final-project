@@ -1,4 +1,5 @@
 # UCI Iris Dataset
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10278220.svg)](https://doi.org/10.5281/zenodo.10278220)
 
 ## Overview: 
 
