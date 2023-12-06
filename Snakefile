@@ -19,3 +19,8 @@ rule analyze:
     'results'
   shell:
     "python scripts/analysis.py"
+
+rule reproduce: 
+  input: 
+    'results',
+    'profiling/report.html'
