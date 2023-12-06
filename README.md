@@ -44,26 +44,16 @@ To reproduce the contents in this project, you should follow the following steps
 1. Clone this repository.
 2. Install Docker on your device.
 
-3. To rerun the data preparation script:
+3. To rerun all of the scripts use the following:
 
-docker run -v ${PWD}:/is477 annem6/is477-fall2023-final-project:v1 python scripts/prepare_data.py
+docker run -v ${PWD}:/is477 annem6/is477-fall2023-final-project:v1 snakemake --cores 1 reproduce
 
-4. To rerun the data analysis script: 
+This utilizes both our docker image and our snakefile to run our workflow. 
 
-docker run -v ${PWD}:/is477 annem6/is477-fall2023-final-project:v1 python scripts/analysis.py
+4. To clean all outputs you can run: 
 
-5. To rerun the data profile script: 
+docker run -v ${PWD}:/is477 annem6/is477-fall2023-final-project:v1 snakemake --cores 1 reproduce --delete-all-output
 
-docker run -v ${PWD}:/is477 annem6/is477-fall2023-final-project:v1 python scripts/profiles.py
-
-
-The workflow can also be ran by using snakemake and running the following codes: 
-
-- snakemake --cores 1 prepare
-- snakemake --cores 1 profile
-- snakemake --cores 1 analyze
-
-Or you can run all of the workflow by doing: snakemake --cores 1 reproduce
 
 ## License
 
